@@ -1,0 +1,67 @@
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #021385;
+}
+
+/* Estilo da Navbar */
+.sidebar {
+    width: 250px;
+    height: 100vh; /* Altura total da tela */
+    background-color: #0f88ec;
+    color: white;
+    position: fixed;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #021385;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 15px 25px;
+}
+
+.sidebar ul li a {
+    color: #021385;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.sidebar ul li:hover {
+    background-color: #0400ff76;
+}
+
+.sidebar ul li a:hover {
+    color: #fff;
+    padding-left: 10px; /* Efeito de deslocamento */
+}
+
+/* Ajuste para o conteúdo não ficar embaixo da barra */
+.content {
+    color: #0f88ec;
+    margin-left: 250px;
+    padding: 40px;
+    width: 100%;
+}
+
+
