@@ -59,9 +59,20 @@ body {
 /* Ajuste para o conteúdo não ficar embaixo da barra */
 .content {
     color: #0f88ec;
-    margin-left: 250px;
+    margin-left: 350px;
     padding: 40px;
     width: 100%;
+    
 }
+.baleia{
+ margin-left: 350px;
+ margin-right: 110px;
+  margin-top: 120px;
 
+}
+.imagem{
+  margin-right: 700px;
+  margin-left: 400pxx;
+  margin-top: 120px;  
+}
 
